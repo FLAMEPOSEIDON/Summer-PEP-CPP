@@ -8,12 +8,14 @@ class Employee{
     int experience;
     string companyname;
 
-    //Constructors : It is a specia member function that is called automatically when an object is created.
+    //Constructors : It is a special member function that is called automatically when an object is created.
     //It will have no return type
     Employee()//Default constructor
     {
-        name = "Chandan";
-        salary = 100000000;
+        cin>>name; //taking input from user instead of assigning values
+        cin>>salary;
+        // name = "Chandan";
+        // salary = 100000000;
     }
     void print()
     {
